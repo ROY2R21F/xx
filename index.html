@@ -1,58 +1,140 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
-<h1 style="color: #d6f8f8;">
     <body>
-	<div style="
-        background-image:url(https://s21.ax1x.com/2024/11/27/pA446QU.jpg);
-        text-align: center;
-        margin: auto;
-        width: 800px;
-        text-align:center;
-        padding:38px;
-        font-size:50px;
-        border: 6px solid rgb(255, 255, 255);
-        border-radius: 8%;
-        ">
-        <font>昕 昕 的 网 站</font>  
+    <audio autoplay loop id="myAudio" src="https://dlink.host/musics/aHR0cHM6Ly9vbmVkcnYtbXkuc2hhcmVwb2ludC5jb20vOnU6L2cvcGVyc29uYWwvc3Rvcl9vbmVkcnZfb25taWNyb3NvZnRfY29tL0VXdlZPRl9TazJWSWhDWk5nWTJ6cENFQm9MN1FwVGVtUkUtc0QxcmVGZmU4Tnc.mp3"></audio>
+    <button style="border:3px solid #ffffff;font-family: Georgia, 'Times New Roman', Times, serif; border-radius: 7px; background-color: #ffffff; font-size: 14px; box-shadow: 3px 3px 3px 3px #636363;;" id="myBtn" onclick="toggleAudio()">播放/暂停</button>
+    <script>
+    var audio = document.getElementById("myAudio");
+    function toggleAudio() {
+      if (audio.paused) {
+        audio.play();
+        document.getElementById("myBtn").innerHTML = "暂停";
+      } else {
+        audio.pause();
+        document.getElementById("myBtn").innerHTML = "播放";
+      }
+    }
+    </script>
+    <br>
+    <h1 style="color: #d6f8f8;text-shadow: 1px 1px 2px rgb(0, 0, 0);
+">
+        <body class="b1">
+        <div style="
+            box-shadow: 10px 10px 10px 1px #636363;
+            background-image:url(https://s21.ax1x.com/2024/11/27/pA446QU.jpg);
+            text-align: center;
+            margin: auto;
+            width: 1300px;
+            padding:38px;
+            font-size:70px;
+            border: 6px solid rgb(255, 255, 255);
+            border-radius: 15px;
+            height: 180px;
+            ">
+            <img src="https://s21.ax1x.com/2024/12/02/pAIDoQA.png" width="130" height="130">
+            <span style="margin: auto; font-family:Georgia, 'Times New Roman', Times, serif;font-weight:bolder">昕 昕 的 和 香 香 网 站</span>
+            <img src="https://s21.ax1x.com/2024/12/02/pAIrPe0.png" width="130" height="130">
         </div>
+            <br><br>
+    <style>
+        .imgBox {
+            width: 800px;
+            height: 1000px;
+            margin: 0 auto;
+        }
+        .imgBox img {
+            border: 20px solid #ffffff;
+            border-radius: 15px;
+            width: 400px;
+            height: 550px;
+            margin: 0 auto;
+            display: none;
+        }
+        .imgBox img:first-child {
+            display: block;
+        }
+        </style>
+        <body>
+            <div class="imgBox" style="box-shadow: 10px 10px 10px 1px #636363; padding-top: 20px; border-radius: 15px;">
+                <img src="https://s21.ax1x.com/2024/12/02/pAIcu9O.jpg" alt="1" style="box-shadow: 10px 10px 10px 1px #636363; ">
+                <img src="https://s21.ax1x.com/2024/12/02/pAIcm4K.jpg" alt="2" style="box-shadow: 10px 10px 10px 1px #636363; ">
+                <img src="https://s21.ax1x.com/2024/12/02/pAIceN6.jpg" alt="3" style="height: 900px; box-shadow: 10px 10px 10px 1px #636363; ">
+                <img src="https://s21.ax1x.com/2024/12/02/pAIcEH1.jpg" alt="4" style="width: 700px; box-shadow: 10px 10px 10px 1px #636363; ">
+                <img src="https://s21.ax1x.com/2024/12/02/pAIcABR.jpg" alt="5" style="width: 450px; box-shadow: 10px 10px 10px 1px #636363; ">
+                <img src="https://s21.ax1x.com/2024/12/02/pAIcku9.jpg" alt="6" style="height: 700px; box-shadow: 10px 10px 10px 1px #636363; ">
+                <img src="https://s21.ax1x.com/2024/12/02/pAIcijJ.jpg" alt="7" style="height: 900px; box-shadow: 10px 10px 10px 1px #636363; ">
+                <img src="https://s21.ax1x.com/2024/12/02/pAIca8S.jpg" alt="8" style="height: 640px; box-shadow: 10px 10px 10px 1px #636363; ">
+                <img src="https://www.helloimg.com/i/2024/12/02/674d8bd56ad7a.jpg" alt="9" style="height:900px;">
+                </div>
+                <script>
+                var index = 0;
+                function changeImg() {
+                var imgs = document.querySelectorAll('.imgBox img');
+                imgs[index].style.display = 'none';
+                index = (index + 1) % imgs.length;
+                imgs[index].style.display = 'block';
+                }
+                setInterval(changeImg, 2000);
+                </script>
+        </body>
+        <br><br>
+        <hr>
         <br>
-        <a href="URL">昕昕的超绝手气1</a>
-        <a href="URL">昕昕的超绝手气2</a>
-        <a href="URL">昕昕的超绝手气3</a>
-        <a href="URL">昕昕的超绝手气1</a>
-
-</h1>
+    <div  style="display: flex; align-items: center; font-size: 35px; padding: auto; padding-top: 10px; padding-bottom: 10px; margin: auto; box-shadow: 10px 10px 10px 1px #636363; color: #f9e42a;background-image: url(https://s21.ax1x.com/2024/11/27/pA446QU.jpg); border: 5px solid #ffffff; border-radius: 15px; width: 550px;text-shadow: 1px 1px 2px black;">
+        <img src="https://s21.ax1x.com/2024/12/02/pAId5DK.png" width="50" height="50" style="margin: auto;">
+        <span style="font-weight: 100; font-family: 'Times New Roman', Times, serif;">《昕 昕 的 超 绝 手 气》</span>
+        <img src="https://s21.ax1x.com/2024/12/02/pAId5DK.png" width="50" height="50" style="margin: auto;" >
+    </div>
+        <br>
+        <div class="v1">
+            <iframe style="border:3px solid #ffffff; box-shadow: 10px 10px 10px 1px #636363;border-radius: 15px; " frameborder="1" src="https://easylink.cc/mvpytx" allowfullscreen="true" width="170px" height="300"></iframe>
+            <iframe style="border:3px solid #ffffff; box-shadow: 10px 10px 10px 1px #636363;border-radius: 15px; " frameborder="1" src="https://easylink.cc/6i5qf8" allowfullscreen="true" width="170px" height="300"></iframe>
+            <iframe style="border:3px solid #ffffff; box-shadow: 10px 10px 10px 1px #636363;border-radius: 15px; " frameborder="1" src="https://easylink.cc/6cfv3f" allowfullscreen="true" width="170px" height="300"></iframe>
+        </div>
     <div style="
         max-width:700px;
         margin:30px auto;
         padding:15px;
         line-height:1.9;
         ">
-    <div style="
-        font-size:20px;
-    ">
-        <hr>
-        <div style="text-align:center;">
+    <div class="f1" style="font-size:20px;">
+        <hr><br>
+        <div style="text-align:center; ">
         <p class="one">昕昕和香香：</p>
-        <img src="https://s21.ax1x.com/2024/11/19/pAWnI74.md.jpg" alt="pAWnI74.jpg" width="300" height="400">
-        <hr>
-        <p class="one">昕妈妈：</p>
-        <img src="https://s21.ax1x.com/2024/11/19/pAWn5BF.md.jpg" alt="pAWn5BF.jpg" width="300" height="400" >
-        <hr>
+        <img style="border:3px solid #ffffff; box-shadow: 10px 10px 10px 1px #636363;border-radius: 15px;" src="https://s21.ax1x.com/2024/11/19/pAWnI74.md.jpg" alt="pAWnI74.jpg" width="300" height="400">
+        <hr><br>
+        <p class="two">昕妈妈：</p>
+        <img style="border:3px solid #ffffff; box-shadow: 10px 10px 10px 1px #636363;border-radius: 15px;" src="https://s21.ax1x.com/2024/11/19/pAWn5BF.md.jpg" alt="pAWn5BF.jpg" width="300" height="400" >
+        <hr><br>
         <p class="one">美昕与帅香：</p>
-        <img src="https://s21.ax1x.com/2024/11/19/pAWnTAJ.md.jpg" alt="pAWnTAJ.jpg" width="500" height="400">
+        <img style="border:3px solid #ffffff; box-shadow: 10px 10px 10px 1px #636363;border-radius: 15px;" src="https://s21.ax1x.com/2024/11/19/pAWnTAJ.md.jpg" alt="pAWnTAJ.jpg" width="500" height="400">
         <hr>
         </div>
     </div>
+    <br><br>
     <div style="
         background-image:url(https://s21.ax1x.com/2024/11/27/pA446QU.jpg);
         text-align:center;
         line-height:2px;
-        width: 691px;
         border: 5px solid rgb(255, 255, 255);
-        border-radius: 8%;
+        border-radius: 15px;
+        font-size: 20px;
+        height: 230px;
+        padding-left: 100px;
+        padding-right: 100px;
+        padding-top: 10px;
+        width: auto;
+        box-shadow: 10px 10px 10px 1px #636363;
     ">
-        <p>昕 昕 的 网 站</p>
+        <p style="font-weight:100; text-shadow: 1px 1px 2px black;
+">
+            ——昕 昕 和 香 香 的 网 站——
+            <hr>
+            <a class="t1" style="background-color: rgba(0, 0, 0, 0); color:aquamarine;" href="https://space.bilibili.com/2042701937/?spm_id_from=333.999.0.0" target="_blank" rel="noopener"><img src="https://s21.ax1x.com/2024/12/01/pAI387n.png" alt="png" width="50" height="50" >昕昕的b站号</a>
+            <a class="t1" style="background-color: rgba(0, 0, 0, 0); color:aquamarine;" href="https://space.bilibili.com/1840538355?spm_id_from=333.1007.0.0" target="_blank" rel="noopener"><img src="https://s21.ax1x.com/2024/12/01/pAI387n.png" alt="png" width="50" height="50" >香香的b站号</a>
+        </p>
+            <a class="t2" style="background-color: rgba(0, 0, 0, 0); color:aquamarine;" href="https://www.douyin.com/user/MS4wLjABAAAAYCQsSNwbYxyUpTebVt-hJ413QrPlSeMvQniCZHKBMzQ?from_tab_name=main" target="_blank" rel="noopener"><img src="https://s21.ax1x.com/2024/12/02/pAIDlGQ.png" alt="png" width="50" height="50" >昕昕的抖音号</a>
+            <a class="t2" style="background-color: rgba(0, 0, 0, 0); color:aquamarine;" href="https://www.douyin.com/user/MS4wLjABAAAA3yxmsG_kUO6sYqJAo8vfZW4WnNEdgpBUCwe0IMVsFXs?from_tab_name=main" target="_blank" rel="noopener"><img src="https://s21.ax1x.com/2024/12/02/pAIDlGQ.png" alt="png" width="50" height="50" >香香的抖音号</a>
     <style>
         body {
             background: url("https://s21.ax1x.com/2024/11/27/pA4hsDH.jpg");
@@ -67,11 +149,41 @@
         .one{           
             background-image:url(https://s21.ax1x.com/2024/11/27/pA446QU.jpg);
             height: 45px;
-            width: 130px;
-            font-size:20px;
+            width: 160px;
+            font-size:25px;
             padding: 10px;
             border: 5px solid rgb(255, 255, 255);
-            border-radius: 10%;
+            border-radius: 15px;
+            text-align:end;
+            display: flex;
+            box-shadow: 10px 10px 10px 1px #636363;
+            align-items: center;
+            margin: auto;
+            padding-bottom: 10px;
+            padding-left: 45px;
+            margin-bottom: 10px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            text-shadow: 1px 1px 2px black;
+
+        }
+        .two{           
+            background-image:url(https://s21.ax1x.com/2024/11/27/pA446QU.jpg);
+            height: 45px;
+            width: 130px;
+            font-size:25px;
+            padding: 10px;
+            border: 5px solid rgb(255, 255, 255);
+            border-radius: 15px;
+            text-align:center;
+            display: flex;
+            box-shadow: 10px 10px 10px 1px #636363;
+            align-items: center;
+            margin: auto;
+            padding-bottom: 10px;
+            padding-left: 70px;
+            margin-bottom: 10px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            text-shadow: 1px 1px 2px black;
         }
         a{
             font-size: 20px;
@@ -80,7 +192,58 @@
             width: 800px;
             height: 600px;
             background-color: antiquewhite;
+            box-shadow: 10px 10px 10px 10px #636363;
         }
+        .v1 {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: nowrap;
+        background-image:url("https://s21.ax1x.com/2024/11/27/pA446QU.jpg");
+        padding: 15px;
+        border: 5px solid rgb(255, 255, 255);
+        border-radius: 15px;
+        padding-right: 1px;
+        padding-left: 1px;
+        width: 1000px;
+        margin: auto;
+        box-shadow: 10px 10px 10px 1px #636363;
+    } 
+    .t1{
+        margin:10px;
+        font-size: 15PX;
+        border: 3px solid #ffffff;
+        border-radius: 7px;
+        text-decoration: none;
+        padding: 4px;
+        padding-right: 40px;
+        box-shadow: 5px 5px 5px 5px #636363;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        text-shadow: 1px 1px 2px black;
+
+    } 
+    .t2{
+        margin:10px;
+        font-size: 15PX;
+        border: 3px solid #ffffff;
+        border-radius: 7px;
+        text-decoration: none;
+        padding: 4px;
+        padding-right: 40px;
+        box-shadow: 5px 5px 5px 5px #636363;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        text-shadow: 1px 1px 2px black;
+
+    }
+    .b1{
+        margin: 0px;
+    }
+    .f1{
+        box-shadow: 1px 10px 10px 1px #636363;
+        padding-left: 10px;
+        padding-right: 10px;
+        border-radius: 15px;
+    }
     </style>
     </div>
   </body>
